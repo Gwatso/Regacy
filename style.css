@@ -1,0 +1,769 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f456;
+    
+}
+
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button-1{
+    height: 38px;
+    background: rgb(29, 29, 100);
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+
+}
+/* header */
+header{
+    background: #12456787;
+    color:#9dd830;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8d41d 3px solid; 
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #menu-bar{
+    float: left;
+}
+header #menu-bar h1{
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header.highlight, header.current a {
+    color: #e84678;
+    font-weight:bold;
+}
+header a:hover{
+    color: #e024c7;
+    font-weight: bold;
+
+}
+/* Showcase */
+#showcase{
+    min-height: 400px;
+    background:url('./images/law2.jpg') no-repeat 0 -100px;
+    text-align: left;
+    color:#3c39d4;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#showacase p{
+    font-size: 20px;
+    text-align: left;
+}
+/* Sign Up form */
+
+.started p{
+    text-align: left;
+    margin: 0;
+    padding : 0;
+    font-weight: bold;
+
+}
+.started form {
+    
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    background-color: #d2c8e4;
+    margin-right: auto;
+    height: 10%;
+    overflow-wrap: 20px;
+}
+.sign-up h4{
+    text-align: center;
+    color: rgb(100, 237, 111);
+    font-size: 15px;
+   
+}
+
+.started input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.started input[type = "text"], input[type = "password"], input[type = "email"],input[type = "phone"]{
+border: none;
+border-bottom: 1px solid rgba(250, 243, 243, 0.781);
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+}
+
+.started input[type = "submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:#3c39d4;
+    color:#d2c8e4;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.started input[type = "submit"]:hover{
+    cursor: pointer;
+    background:#e84678;
+    color:#000;
+}
+.started a{
+    text-decoration: none;
+    font-size:18px;
+    line-height: 20px;
+    color:rgba(46, 33, 223, 0.856);
+}
+.started a:hover{
+    color:rgb(0, 255, 234);
+
+}
+#or{
+    text-align: center;
+    border-bottom: 1px solid rgba(250, 243, 243, 0.781);
+   
+}
+/* Testimonials */
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+.testimonial-col{
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 90%;
+    text-align: left;
+    background: #adc29c;
+    padding: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.testimonial-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.testimonial-col p{
+    padding:0;
+}
+.testimonial-col h3{
+    margin-top: 0px;
+    text-align: left;
+    display: flex;
+    font-size: 16px;
+    padding: 0;
+
+}
+/* Speciality */
+
+.row{
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.specialty-col{
+    flex-basis: 31%;
+    background:rgb(239, 241, 239);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+  
+
+}
+.button-2:hover{
+    cursor: pointer;
+    background:#20216e;
+    color:rgb(245, 238, 238);
+}
+
+/* Regacy */
+.regacy {
+    margin-top: 5px;
+    margin:auto;
+    padding-top: 10px;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+.regacy-col{
+    flex-basis:31%;
+    border-radius: 10px;
+    margin-bottom:30px;
+    margin-left: 30px;
+    margin-right: 30px;
+   display: inline;
+   text-align: center;
+
+   
+}
+.regacy-col img{
+    width: 90px;
+    height: 90px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+    display: block;
+}
+.regacy.button-3{
+    background: rgb(168, 173, 168);
+    cursor: pointer;
+    color: rgb(21, 102, 196);
+
+}
+.button-3:hover{
+    cursor: pointer;
+    background:#0c10e9;
+    color:#000;
+}
+/* regacy Works */
+.regacy-works{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    margin-left: 350px;
+    margin-right: 300px;
+    background: lightblue;
+    border-bottom-width: 90%;
+}
+.regacy-works h2{
+    text-align: center;
+    float: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.vids{
+    float: center;
+}
+.vids:hover{
+    background:#1d19ee;
+}
+/* news */
+.news{
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+   text-align: center;
+   background:#d2c8e4;
+   border-radius: 20px;
+
+}
+.news-col{
+    flex-basis:31%;
+    border-radius: 10px;
+    margin-bottom:30px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.news-col img {
+    width: 50px;
+    padding: 5px;
+
+    
+}
+.news-col .button-4{
+    cursor:pointer;
+
+}
+.button-4:hover{
+    background:#69aa00;
+    color: #58d439;
+}
+.footer{
+    margin-top: 5px;
+    padding: 20px;
+    color:#f4f4f4;
+    background-color:#e8491d;
+    text-align:center;
+    border-radius: 10px;
+}
+.footer .bottom-footer{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 0px;
+  
+
+}
+#foot-center{
+    text-align: center;
+}
+/* Login.html */
+.loginbox p{
+    text-align: center;
+    margin: 0;
+    padding : 0;
+    font-weight: bold;
+
+}
+.loginbox form {
+    
+    float: center;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    background-color: #d2c8e4;
+    margin-left: 50px;
+    margin-right:50px;
+    
+}
+.loginbox h1{
+    text-align: center;
+    color: cornflowerblue;
+   
+}
+#p1 .loginbox p{
+    text-align: left;
+    color:#58d439;
+    border-bottom: 1px solid rgba(196, 190, 190, 0.781);
+    
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type = "text"], input [type = "password"]{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+}
+
+.loginbox input[type = "submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:#3c39d4;
+    color:#d2c8e4;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type = "submit"]:hover{
+    cursor: pointer;
+    background:#e84678;
+    color:#000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size:12px;
+    line-height: 20px;
+    color:darkgrey;
+}
+.loginbox a:hover{
+    color:rgb(0, 255, 234);
+}
+#back-img{
+    background:url('./images/mah.jpg') no-repeat 0 -400px;
+    background-position: center;
+    background-size: cover;
+
+}
+.log-container{
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-top: 0%;
+
+}
+.log-container p{
+    font-size: 18px;
+    padding: 0;
+    margin-left: 50px;
+    margin-right:10px;
+    color:rgb(143, 72, 209)
+
+}
+.log-container h1{
+    font-size: 30px;
+    padding: 0;
+    margin-left: 10px;
+    margin-right:10px;
+    color:rgb(72, 34, 177);
+    text-align: center;
+}
+.log-container h2{
+    font-size: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-right:10px;
+    color: rgb(205, 22, 211);
+    text-align:center;
+}
+.button-6{
+    font-size: 12px;
+    padding: 10px;
+     padding-bottom: 10px; 
+    margin-left: 50px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    color: rgb(84, 124, 89);
+    width:90px;
+    height: 5px;
+    text-align:float;
+    border-bottom: 1px solid rgba(250, 243, 243, 0.781);
+    border-radius: 20px;
+
+}
+.button-6:hover{
+    cursor: pointer;
+    color: #e76921;
+    background:#3c39d4
+    
+}
+/* Lawyer Page */
+.btn{
+    width: 200px;
+    padding:15px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 20px 10px;
+    font-weight: bold;
+    background:transparent;
+    border: 2px solid #8fece3;
+    background:#3c39d4;
+    color:#d2c8e4;
+    cursor: pointer;
+    text-decoration: none;
+    position:center;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+}
+.btn span{
+    background:#009688;
+    height:100%;
+    width:100%;
+    border-radius:25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.btn:hover{
+    background: #1d19ee;
+    cursor: pointer;
+    color:#000;
+    width: 100%;
+}
+.btn:hover{
+    border:none;
+}
+.lawyer-container h1{
+    font-size: 30px;
+    color: #3c39d4;
+    text-align: center;
+
+}
+.lawyer-container p{
+    font: size 18px;
+    text-align:center;
+}
+.lawyer-main{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+/* About Section */
+.about.about-image{
+    width: 60%;
+    float: left;
+
+}
+.about-wrapper{
+    max-width: 100%;
+    height: auto;
+
+}
+.about.about-content{
+    width: 10%;
+    float: right;
+    text-align: left;
+}
+.about.line{
+    width:150px;
+    height: 6px;
+    background-color: #0c0a0a;
+}
+/* Sign Up Page 
+
+Side bar*/
+aside#sidebar1{
+    float: right;
+    width: 80%;
+    margin-top: 10px;
+    height: 40%;
+    position: 40;
+    border-left: 2px solid rgb(143, 130, 130);
+    margin-left: 30px;
+    display: block;
+  
+}
+/* aside#sidebar2{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    position: relative;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: lightgray;
+    display: block;
+} */
+.dark{
+    padding: 15px;
+    background:rgb(153, 233, 233);
+    color:#ffff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-bottom: 1px solid rgba(250, 243, 243, 0.781);
+    border-color: #e8d41d;
+}
+.sign-title{
+    font-size: 24px;
+    color: #3c39d4;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+#dark1{
+    padding: 15px;
+    background:rgb(166, 230, 113);
+    color:#ffff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-bottom: 1px solid rgba(250, 243, 243, 0.781);
+    border-color: #e8d41d;
+}
+
+/* Explore more page */
+.exp{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: lightgray;
+}
+
+/* search lawyer */
+#search-1 {
+
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px;
+    border-bottom: 1px solid #fff;
+    background: lightgray;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+#search-2 {
+
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px;
+    border-bottom: 1px solid #fff;
+    background: lightgray;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+#search-3 {
+
+    width: 50%;
+    margin-bottom: 20px;
+    border: 5px;
+    border-bottom: 1px solid #fff;
+    background: lightgray;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 50px;
+   
+}
+.butt-1{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.butt-1:hover{
+    background: #1607f0;
+    cursor: pointer;
+    color:#000;
+   
+}
+.butt-2{
+    margin-left: 20px;
+}
+.butt-2:hover{
+    background: #8180e4;
+    cursor: pointer;
+    color:#000;
+   
+}
+/* court cases page */
+.court h3{
+    font-size: 30px;
+    color: #d5d5dd;
+    text-align: center;
+}
+.court p{
+    font-style: italic;
+    text-align:center;
+    color:#ffffff;
+}
+/* Footer for court-cases page */
+
+footer a {
+    color: #2cee05;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+footer li{
+    float: right;
+    display: inline;
+    padding: 5 20px 5 20px;
+}
+footer #menu-footer{
+    float: left;
+}
+
+footer nav {
+    float: right;
+    margin-top: 10px;
+}
+
+footer a:hover{
+    color: #e024c7;
+    font-weight: bold;
+
+}
+
+/*  Contact Us page*/
+.contact-box p{
+    text-align: left;
+    margin: 0;
+    padding : 0;
+    font-weight: bold;
+
+}
+.contact-box form {
+    
+    float: center;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    background-color: #d2c8e4;
+    margin-left: 50px;
+    margin-right:50px;
+    
+}
+.contact-box h1{
+    text-align: center;
+    color: cornflowerblue;
+   
+}
+#p1 .contact-box p{
+    text-align: left;
+    color:#58d439;
+    border-bottom: 1px solid rgba(196, 190, 190, 0.781);
+    
+}
+.contact-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact-box input[type = "text"], input [type = "password"]{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+}
+
+.contact-box input[type = "submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:#3c39d4;
+    color:#d2c8e4;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.contact-box input[type = "submit"]:hover{
+    cursor: pointer;
+    background:#e84678;
+    color:#000;
+}
+#message{
+    width: 100%;
+    height: 70px;
+}
+.p2{
+    font-style: italic;
+}
+/* lawyers directory */
+.directory h3{
+    font-size: 30px;
+    color: #8180e4;
+    text-align: center;
+}
+.directory p{
+    font-size: 18px;
+    color:#a56ee4;
+    text-align: center;
+}

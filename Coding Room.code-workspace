@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Portfolio"
+		},
+		{
+			"path": "..\\..\\Mobile Nav"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio"
+	},
+	"launch": {
+		"configurations": [
+			{
+				"name": "Launch Microsoft Edge and open the Edge DevTools",
+				"request": "launch",
+				"type": "vscode-edge-devtools.debug",
+				"url": ""
+			}
+		]
+	}
+}
